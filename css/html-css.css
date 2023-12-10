@@ -13,7 +13,8 @@ body {
 }
 
 main,
-footer {
+footer,
+div {
     background-color: #fff;
     width: 500px;
     margin: auto;
@@ -21,35 +22,19 @@ footer {
     box-shadow:3px 3px 5px black;
 }
 
-h1,
-h2 {
+h1 {
     color: #4781b4;
     font-size: 20px;
 }
 
-h1 {
-    margin-top: 25px;
+section img {
+    width: 450px;
+    height: 350px;
 }
 
-header img {
-    width: 400px;
-    height: 400px;
-    border-radius: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-img.git {
-    width: 200px;
-    height: 100px;
-}
-
-article {
-    margin-bottom: 50px;
-}
-
-article h2 {
-    margin-bottom: 20px;
+abbr,
+span {
+    font-weight: bold;
 }
 
 a {
